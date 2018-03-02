@@ -9,6 +9,8 @@
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+  <script src="https://code.jquery.com/jquery.js"></script>
+
   <script src="https://use.fontawesome.com/ba65046ae4.js"></script>
 
 </head>
@@ -45,7 +47,7 @@
           Please enter a valid photo link.
         </div>
       </div>
-
+      
       <hr>
     
       <div class="form-group">
@@ -199,7 +201,7 @@
     <footer class="footer">
         <div class="container">
           <p>
-            <a href="../data/friends">API Friends List</a> |
+            <a href="/api/friends">API Friends List</a> |
             <a href="https://github.com/rnorman24/FriendFinder">GitHub Repo</a>
           </p>
         </div>
@@ -208,7 +210,7 @@
   </div>
 
   <script>
-      // Example starter JavaScript for disabling form submissions if there are invalid fields
+/*      // Example starter JavaScript for disabling form submissions if there are invalid fields
       (function() {
         'use strict';
         window.addEventListener('load', function() {
@@ -221,12 +223,40 @@
                 event.preventDefault();
                 event.stopPropagation();
               }
-              form.classList.add('was-validated');
+              console.log(form.classList.add('was-validated'));            
             }, false);
           });
         }, false);
       })();
+*/
+      $("#submit").on("click", function(event) {
+        event.preventDefault();
+                var userData = {
+                  name: $("#name").val().trim(),
+                  photo: $("#photo").val().trim(),
+                  scores: [
+                    $("#q1").val().trim(),
+                    $("#q2").val().trim(),
+                    $("#q3").val().trim(),
+                    $("#q4").val().trim(),
+                    $("#q5").val().trim(),
+                    $("#q6").val().trim(),
+                    $("#q7").val().trim(),
+                    $("#q8").val().trim(),
+                    $("#q9").val().trim(),
+                    $("#q10").val().trim()
+                  ]
+                };
+                userData.scores = userData.scores.map(Number);
+                console.log(userData.scores);
+                
+                $.post("/api/friends", userData, function(data) {
+                  console.log(data.name);
+                  console.log(data.photo);
+                })
+              });
   </script>
+
 
 </body>
 
