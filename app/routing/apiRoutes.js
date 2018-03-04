@@ -34,7 +34,7 @@ module.exports = function(app) {
     // Convert each user's results into a simple array of numbers
     // console.log(req.body.scores.map(Number));
     req.body.scores = req.body.scores.map(Number);
-
+    
     let curSum = 50;
     let nameMatch;
     let photoMatch;
@@ -43,9 +43,7 @@ module.exports = function(app) {
       let totalSum = 0;
       for (let i = 0; i < 10; i++) {
         sum = Math.abs(req.body.scores[i] - friendData[j].scores[i]);
-        
         totalSum = sum + totalSum;
-        
       }
       console.log(totalSum);
       if (totalSum < curSum) {

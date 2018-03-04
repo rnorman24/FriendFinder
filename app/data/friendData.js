@@ -7,8 +7,8 @@
 
 var friendArray = [
   {
-    "name":"Ahmed",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name":"Sophia",
+    "photo":"https://cdn.pixabay.com/photo/2016/11/06/02/49/model-1802142_640.jpg",
     "scores":[
         5,
         1,
@@ -23,8 +23,8 @@ var friendArray = [
       ]
   },
   {
-    "name":"Fred",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name":"Beth",
+    "photo":"https://cdn.pixabay.com/photo/2018/02/14/06/18/woman-3152203_640.jpg",
     "scores":[
         5,
         1,
@@ -39,8 +39,8 @@ var friendArray = [
       ]
   },
   {
-    "name":"Opie",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name":"Star",
+    "photo":"https://cdn.pixabay.com/photo/2018/01/13/19/39/fashion-3080644_640.jpg",
     "scores":[
         5,
         1,
@@ -55,8 +55,8 @@ var friendArray = [
       ]
   },
   {
-    "name":"Gern",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name":"Zoe",
+    "photo":"https://cdn.pixabay.com/photo/2018/03/01/14/57/woman-3190858_640.jpg",
     "scores":[
         5,
         1,
@@ -71,8 +71,8 @@ var friendArray = [
       ]
   },
   {
-    "name":"Pete",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name":"Cindy",
+    "photo":"https://cdn.pixabay.com/photo/2016/09/01/18/25/fall-1636872_640.jpg",
     "scores":[
         5,
         1,
