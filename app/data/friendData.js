@@ -1,8 +1,8 @@
 // ===============================================================================
 // DATA
 // Below data will hold all of the friends.
-// Initially we just set it equal to a "dummy" friend.
-// But you could have it be an empty array as well.
+// Initially it's populated with 6 "dummy" friends to compare to.
+// But it could have been an empty array as well.
 // ===============================================================================
 
 var friendArray = [
@@ -80,6 +80,22 @@ var friendArray = [
         4,
         5,
         1,
+        2,
+        5,
+        4,
+        5
+      ]
+  },
+  {
+    "name":"Jenny",
+    "photo":"https://cdn.pixabay.com/photo/2018/02/12/17/19/woman-3148784_640.jpg",
+    "scores":[
+        5,
+        1,
+        4,
+        4,
+        5,
+        2,
         2,
         5,
         4,
