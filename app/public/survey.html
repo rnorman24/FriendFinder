@@ -219,7 +219,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h3 class="modal-title" >Best Match</h3>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <button type="button" class="close clear-survey" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
@@ -228,7 +228,7 @@
             <img id="match-img" src="" alt="">
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary clear-survey" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
@@ -286,6 +286,10 @@
       });
     }, false);
   })();
+
+$(".clear-survey").on("click", function(e) {
+  window.location.reload();
+})
 
   </script>
 
