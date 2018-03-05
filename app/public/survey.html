@@ -287,8 +287,22 @@
     }, false);
   })();
 
-$(".clear-survey").on("click", function(e) {
-  window.location.reload();
+$(".clear-survey").on("click", function() {
+  // loadwindow.location.reload();
+  $("form").removeClass('was-validated');
+  $("#name").val("");
+  $("#photo").val("");
+  $("#q1").val("");
+  $("#q2").val("");
+  $("#q3").val("");
+  $("#q4").val("");
+  $("#q5").val("");
+  $("#q6").val("");
+  $("#q7").val("");
+  $("#q8").val("");
+  $("#q9").val("");
+  $("#q10").val("");
+  $("html, body").animate({ scrollTop: 0 }, "slow");
 })
 
   </script>
