@@ -8,7 +8,7 @@
 var friendArray = [
   {
     "name":"Sophia",
-    "photo":"./public/images/model-1802142_640.jpg",
+    "photo":"./images/model-1802142_640.jpg",
     "scores":[
         5,
         1,

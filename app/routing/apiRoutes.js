@@ -4,7 +4,7 @@
 // This data source holds an array of information on friendData
 // ===============================================================================
 
-var friendData = require("../data/friendData");
+const friendData = require("../data/friendData");
 
 // ===============================================================================
 // ROUTING
