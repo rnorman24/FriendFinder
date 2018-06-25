@@ -24,7 +24,7 @@ var friendArray = [
   },
   {
     "name":"Beth",
-    "photo":"https://cdn.pixabay.com/photo/2018/02/14/06/18/woman-3152203_640.jpg",
+    "photo":"./images/woman-3152203_640.jpg",
     "scores":[
         5,
         1,
@@ -40,7 +40,7 @@ var friendArray = [
   },
   {
     "name":"Star",
-    "photo":"https://cdn.pixabay.com/photo/2018/01/13/19/39/fashion-3080644_640.jpg",
+    "photo":"./images/fashion-3080644_640.jpg",
     "scores":[
         5,
         1,
@@ -56,7 +56,7 @@ var friendArray = [
   },
   {
     "name":"Zoe",
-    "photo":"https://cdn.pixabay.com/photo/2018/03/01/14/57/woman-3190858_640.jpg",
+    "photo":"./images/woman-3190858_640.jpg",
     "scores":[
         5,
         1,
@@ -72,7 +72,7 @@ var friendArray = [
   },
   {
     "name":"Cindy",
-    "photo":"https://cdn.pixabay.com/photo/2016/09/01/18/25/fall-1636872_640.jpg",
+    "photo":"./images/flower-2587531_640.jpg",
     "scores":[
         5,
         1,
@@ -88,7 +88,7 @@ var friendArray = [
   },
   {
     "name":"Jenny",
-    "photo":"https://cdn.pixabay.com/photo/2018/02/12/17/19/woman-3148784_640.jpg",
+    "photo":"./images/woman-3439488_640.jpg",
     "scores":[
         5,
         1,
