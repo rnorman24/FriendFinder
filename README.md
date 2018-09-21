@@ -48,7 +48,7 @@ Express is used to handle routing. The app is deployed to Heroku so other users 
 ```json
 {
   "name":"Sophia",
-  "photo":"https://cdn.pixabay.com/photo/2016/11/06/02/49/model-1802142_640.jpg",
+  "photo":"./images/model-1802142_640.jpg",
   "scores":[
       5,
       1,
@@ -84,6 +84,6 @@ Express is used to handle routing. The app is deployed to Heroku so other users 
 
 The app is hosted on Heroku at the following link (https://salty-taiga-65994.herokuapp.com/).
 
-And also can be found on my portfolio page at (https://rnorman24.github.io/Responsive-Portfolio/).
+And also can be found on my portfolio page at (https://enigmatic-refuge-83968.herokuapp.com/).
 
 - - -
